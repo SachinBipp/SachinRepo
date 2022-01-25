@@ -116,6 +116,7 @@ class FilterVC: UIViewController {
         self.pickerView.removeFromSuperview()
         self.toolBar.removeFromSuperview()
         self.isPickerViewShowing = false
+        print(isPickerViewShowing)
     }
     
     //MARK: - Filter Submit button clicked
